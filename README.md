@@ -1,8 +1,10 @@
 # Init new react app
 
-#### Install eslint
+Init and config create-react-app project.
 
-- download eslint plugin
+### Install eslint
+
+- install eslint plugin
 - add `.eslintrc` ( delete from package.json )
 - add airbnb `npx install-peerdeps --dev eslint-config-airbnb`
 - add airbnb extends `"extends": "airbnb"`
@@ -19,9 +21,9 @@
 
 - add auto fix on save
 
-#### Prettier config
+### Prettier config
 
-- install ** Prettier - Code formatter ** plugin
+- install **Prettier - Code formatter** plugin
 - add `.prettierrc` file
 - add
 
@@ -38,10 +40,10 @@
 - add `"prettier", "prettier/react"` to .eslintrc extends
 - add auto format on save
 
-#### Husky and Lint-staged config
+### Husky and Lint-staged config
 
 - `npm install -D husky lint-staged`
-- add
+- add to package.json
 
 ```
   "husky": {
@@ -57,3 +59,22 @@
     ]
   }
 ```
+
+- add to .eslintrc
+
+```
+  "env": {
+    "jest": true
+  },
+
+  "globals": {
+    "document": true
+  },
+```
+
+## Author
+
+**Sebastian Westfal**
+
+> Inspiration and idea: Adam (helloroman)
+> Visit helloroman git [GitHub Page](https://github.com/helloroman).
