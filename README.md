@@ -76,6 +76,10 @@ Init and config create-react-app project.
 
 **Sebastian Westfal**
 
+<<<<<<< HEAD
 Inspiration and idea: Adam (helloroman)
 
+=======
+> Inspiration and idea: Adam (helloroman)
+>>>>>>> 259404acf1c927267e67caf63eccf12ca7bbd838
 > Visit helloroman git [GitHub Page](https://github.com/helloroman)
