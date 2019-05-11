@@ -1,8 +1,13 @@
-# Init new react app
+# New react app
 
-Init and config create-react-app project.
+Init and config new create-react-app project.
 
-### Install eslint
+#### Change yarn to npm
+
+- remove `yarn.lock` file
+- install npm `npm install`
+
+#### Install eslint
 
 - install eslint plugin
 - add `.eslintrc` ( delete from package.json )
@@ -21,7 +26,7 @@ Init and config create-react-app project.
 
 - add auto fix on save
 
-### Prettier config
+#### Install prettier
 
 - install **Prettier - Code formatter** plugin
 - add `.prettierrc` file
@@ -40,7 +45,7 @@ Init and config create-react-app project.
 - add `"prettier", "prettier/react"` to .eslintrc extends
 - add auto format on save
 
-### Husky and Lint-staged config
+#### Husky and Lint-staged config
 
 - `npm install -D husky lint-staged`
 - add to package.json
@@ -72,7 +77,12 @@ Init and config create-react-app project.
   },
 ```
 
-## Author
+#### Styled components
+
+- `npm install --save styled-components`
+- install **vscode-styled-components** plugin
+
+### Author
 
 **Sebastian Westfal**
 

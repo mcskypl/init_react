@@ -1,6 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+
 import logo from './logo.svg';
 import './App.css';
+
+const MyButton = styled.button`
+  border: 2px solid;
+  padding: 2em;
+`;
 
 function App() {
   return (
@@ -15,6 +22,7 @@ function App() {
         >
           lo
         </a>
+        <MyButton>Hello</MyButton>
       </header>
     </div>
   );
