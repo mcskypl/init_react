@@ -1,6 +1,6 @@
-# New react app
+# Init new react app
 
-###### Install eslint
+#### Install eslint
 
 - download eslint plugin
 - add `.eslintrc` ( delete from package.json )
@@ -19,7 +19,7 @@
 
 - add auto fix on save
 
-###### Prettier config
+#### Prettier config
 
 - install ** Prettier - Code formatter ** plugin
 - add `.prettierrc` file
@@ -36,4 +36,24 @@
 - delete `"react-app"` from .eslintrc
 - `npm install -D eslint-config-prettier prettier`
 - add `"prettier", "prettier/react"` to .eslintrc extends
-- - add auto format on save
+- add auto format on save
+
+#### Husky and Lint-staged config
+
+- `npm install -D husky lint-staged`
+- add
+
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --config .prettierrc --write",
+      "eslint --fix",
+      "git add"
+    ]
+  }
+```
