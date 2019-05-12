@@ -105,6 +105,9 @@ function loadStories() {
 configure(loadStories, module);
 ```
 
+- add file \*.stories.js
+- add preview-head.html file to .storybook
+
 ## Author
 
 **Sebastian Westfal**
