@@ -87,6 +87,24 @@ Init and config new create-react-app project.
 - `font-size: 62.5%; /* Now 10px = 1rem!`
 - https://gist.github.com/mrwweb/5627502
 
+### Storybook
+
+- install storybook `npx storybook`
+- run storybook `npm run storybook`
+- add to .storybook/config.js
+
+```
+import { configure } from '@storybook/react';
+
+const req = require.context('../src/components', true, /\.stories\.js$/);
+
+function loadStories() {
+  req.keys().forEach(filename => req(filename));
+}
+
+configure(loadStories, module);
+```
+
 ## Author
 
 **Sebastian Westfal**
