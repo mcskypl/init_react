@@ -2,12 +2,12 @@
 
 Init and config new create-react-app project.
 
-#### Change yarn to npm
+### Change yarn to npm
 
 - remove `yarn.lock` file
 - install npm `npm install`
 
-#### Install eslint
+### Install eslint
 
 - install eslint plugin
 - add `.eslintrc` ( delete from package.json )
@@ -26,7 +26,7 @@ Init and config new create-react-app project.
 
 - add auto fix on save
 
-#### Install prettier
+### Install prettier
 
 - install **Prettier - Code formatter** plugin
 - add `.prettierrc` file
@@ -45,7 +45,7 @@ Init and config new create-react-app project.
 - add `"prettier", "prettier/react"` to .eslintrc extends
 - add auto format on save
 
-#### Husky and Lint-staged config
+### Husky and Lint-staged config
 
 - `npm install -D husky lint-staged`
 - add to package.json
@@ -77,12 +77,17 @@ Init and config new create-react-app project.
   },
 ```
 
-#### Styled components
+### Styled components
 
 - `npm install --save styled-components`
 - install **vscode-styled-components** plugin
 
-### Author
+### Happy rems
+
+- `font-size: 62.5%; /* Now 10px = 1rem!`
+- https://gist.github.com/mrwweb/5627502
+
+## Author
 
 **Sebastian Westfal**
 
